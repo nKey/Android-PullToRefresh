@@ -9,6 +9,10 @@ android {
         targetSdkVersion 4
     }
 
+    lintOptions {
+        abortOnError false
+    }
+
     sourceSets {
         main {
             manifest.srcFile 'library/AndroidManifest.xml'
